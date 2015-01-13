@@ -284,12 +284,19 @@
     <script>
       function initialize() {
          var mapCanvas=document.getElementById('map-canvas');
+         var myLatlng=new google.maps.LatLng(23.163374, 75.777151);
          var mapOptions = {
-            center: new google.maps.LatLng(23.163374, 75.777151),
-            zoom: 8,
+            center: myLatlng,
+            zoom: 16,
             mapTypeId: google.maps.MapTypeId.ROADMAP
          }
-         var map=new google.maps.Map(mapCanvas, mapOptions)
+         var map=new google.maps.Map(mapCanvas, mapOptions);
+
+         var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+         });
+
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
