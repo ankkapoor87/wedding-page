@@ -65,3 +65,13 @@ body {
 	background-color: #8b3d96;
 	}
 }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
