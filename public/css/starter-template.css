@@ -5,6 +5,9 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+.img-circle {
+  border-radius:30%;  
+}
 
 .navbar-default {
     background-color: #ffffff;
