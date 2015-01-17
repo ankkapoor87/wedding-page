@@ -5,7 +5,9 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
-
+.bg-primary {
+    background-color:#ff5cad;
+}
 .navbar-default {
     background-color: #ffffff;
     border-color: #8b3d96;
