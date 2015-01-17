@@ -311,6 +311,14 @@
       }
       google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+    
+    <script type="text/javascript">
+      $('.nav li a').on('click', function() {
+      alert('clicked');
+      $(this).parent().parent().find('.active').removeClass('active');
+      $(this).parent().addClass('active');
+      });
+    </script>
 
     <!-- Custom Theme JavaScript -->
     <script>
