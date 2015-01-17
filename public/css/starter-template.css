@@ -5,6 +5,10 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+@font-face {
+    font-family: "Cul-de-sac";
+    src: url("../fonts/CulDeSac.ttf") format("truetype");
+}
 .bg-primary {
     background-color:#b684bc;
 }
