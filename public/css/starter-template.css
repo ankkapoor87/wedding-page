@@ -78,6 +78,10 @@ custom-font {
 .navbar-default .navbar-link:hover {
     color: #ffffff;
 }
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
 
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
