@@ -79,6 +79,7 @@ custom-font {
     color: #ffffff;
 }
 .navbar-link:hover {
+    color: #9543ef
     text-decoration: underline;
 }
 
