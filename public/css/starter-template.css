@@ -78,7 +78,7 @@ custom-font {
 .navbar-default .navbar-link:hover {
     color: #ffffff;
 }
-.navbar-link:hover {
+.navbar-brand:hover {
     color: #9543ef
     text-decoration: underline;
 }
